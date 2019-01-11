@@ -22,9 +22,7 @@ namespace server
 	{
 		public static void Main(string[] args)
 		{
-			object ikea ="startingsoiduf";
-			object ikeaa ="startingsoiduf";
-			object ikeaaa ="startingsoiduf";
+
 			ConnectionManager ThreadingC= new ConnectionManager();
 			Thread manager = new Thread(new ThreadStart(ThreadingC.ServerInitiate));
 			manager.Start();
